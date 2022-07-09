@@ -1,0 +1,4 @@
+select country_id, COUNT(*) from city
+GROUP BY country_id
+ORDER BY count(*) DESC
+LIMIT 1;
